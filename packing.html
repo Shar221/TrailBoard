@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Packing List – Trailboard</title>
+<link rel="stylesheet" href="packing.css">
+</head>
+<body>
+<header class="navbar">
+<div class="logo">
+<img src="IMAGES/logo.png" alt="Trailboard Logo">
+<span>Trailboard</span>
+</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="dest.html">Travel Ideas</a>
+<a href="packing.html" class="active">Packing List</a>
+<a href="journals.html">Photo Journal</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Smart Packing List</h1>
+
+<form class="packing-form">
+<label>
+Destination:
+<input type="text" placeholder="e.g. Tokyo">
+</label>
+
+<label>
+Season:
+<select>
+<option>Summer</option>
+<option>Winter</option>
+<option>Spring</option>
+<option>Fall</option>
+</select>
+</label>
+
+<label>
+Duration (days):
+<input type="number" min="1" placeholder="7">
+</label>
+
+<button type="submit">Generate List</button>
+</form>
+
+<section class="packing-list">
+<h2>Suggested Items</h2>
+<ul>
+<li><input type="checkbox"> Passport</li>
+<li><input type="checkbox"> Travel adapter</li>
+<li><input type="checkbox"> Clothes for the season</li>
+<li><input type="checkbox"> Toiletries</li>
+<li><input type="checkbox"> Comfortable shoes</li>
+<li><input type="checkbox"> Power bank</li>
+</ul>
+</section>
+</main>
+</body>
+<footer>
+  <p>&copy; 2025 Trailboard. All Rights Reserved. </p>
+</footer>
+</html>
