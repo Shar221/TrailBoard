@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fefaf1;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #fefaf1;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.menu-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.upload-btn {
+  background-color: #2d5c3c;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: #21442d;
+}
+
+/* Journal Image section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 4rem;
+}
+
+.image-section img {
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
